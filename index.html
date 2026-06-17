@@ -667,6 +667,8 @@
       a[href^="mailto"]::after { content: ""; }
     }
   </style>
+  <!-- Beehiiv attribution tracking -->
+  <script type="text/javascript" async src="https://subscribe-forms.beehiiv.com/attribution.js"></script>
 </head>
 <body>
 
@@ -694,22 +696,7 @@
     <!-- Signup -->
     <section class="wrap">
       <div class="signup" id="signup">
-        <h2>Get the printable PDF</h2>
-        <p>Enter your email to download a print version of this tour. You will also be added to The Gowanaut, our free weekly newsletter about the Gowanus area.</p>
-
-        <!-- ===========================================================
-             BEEHIIV FORM EMBED GOES HERE
-             Replace the form below with your Beehiiv form embed code.
-             In Beehiiv, go to Settings &rarr; Subscribe forms &rarr; create
-             a new form titled "Battle Tour PDF", set it to deliver the
-             PDF via the welcome email automation, and paste the embed
-             code in place of this form.
-             =========================================================== -->
-        <form class="signup-form" action="https://thegowanaut.com" method="get" onsubmit="event.preventDefault(); alert('Replace this form with your Beehiiv embed code.');">
-          <input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required>
-          <button type="submit">Get the PDF</button>
-        </form>
-        <p class="signup-fine">Unsubscribe anytime. We send one email a week, on Saturday mornings.</p>
+        <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="5a1112a0-9622-4881-ad75-457eeecbec6d"></script>
       </div>
     </section>
 
